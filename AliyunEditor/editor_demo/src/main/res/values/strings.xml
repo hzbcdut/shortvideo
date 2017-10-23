@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">编辑Demo</string>
+    <string name="edit_nav_edit">编辑</string>
+    <string name="edit_nav_save_and_share">保存／分享></string>
+    <string name="effect_mananger_nav_edit">特效管理</string>
+    <string name="motion_sticker_effect_manager">动图</string>
+    <string name="subtitle_effect_manager">字幕</string>
+    <string name="font_effect_manager">字体</string>
+    <string name="mv_effect_manager">MV</string>
+    <string name="music_effect_manager">音乐</string>
+    <string name="music_origin">原音</string>
+    <string name="my_music">我的音乐</string>
+    <string name="local_music">本地音乐</string>
+    <string name="delete_effect_manager">删除</string>
+    <string name="use_effect_edit">使用</string>
+    <string name="download_effect_edit">下载</string>
+    <string name="cancel_more_mv_edit">取消</string>
+    <string name="more_motion_sticker_nav_edit">更多动图</string>
+    <string name="more_caption_nav_edit">更多字幕</string>
+    <string name="more_mv_nav_edit">更多MV</string>
+    <string name="qupai_text_count_outof">字数超出限制</string>
+    <string name="none_effect">原片</string>
+    <string name="more">更多</string>
+    <string name="timeline_curr_time">%1$02d:%2$02d</string>
+    <string name="material_downloading_failure">素材下载失败！</string>
+    <string name="res_copy">资源拷贝中</string>
+    <string name="empty_music">无音乐</string>
+    <string name="mv_message">请先移除MV效果再添加音乐</string>
+    <string name="cancel">取消</string>
+    <string name="has_no_network">网络不给力，请检查网络</string>
+    <string name="no_free_memory">剩余磁盘空间不足</string>
+    <string name="play_video_error">该视频为错误视频</string>
+    <string name="not_supported_audio">不支持的音频格式</string>
+    <string name="not_supported_video">不支持的视频格式</string>
+    <string name="not_supported_pixel_format">不支持的文件</string>
+</resources>
+
