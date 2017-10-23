@@ -257,12 +257,25 @@ public class CropSettingTest extends Activity implements View.OnClickListener,Co
             }else{
                 frameRate = Integer.parseInt(frameRateEdit.getText().toString());
             }
-
+            AliyunSnapVideoParam mCropParam = new AliyunSnapVideoParam.Builder()
+                    .setFrameRate(frameRate)
+                    .setGop(gop)
+                    .setFilterList(eff_dirs)
+                    .setCropMode(cropMode)
+                    .setVideoQuality(videoQuality)
+                    .setResolutionMode(resolutionMode)
+                    .setRatioMode(ratioMode)
+                    .setNeedRecord(true)
+                    .setMinVideoDuration(4000)
+                    .setMaxVideoDuration(60 * 1000 * 1000)
+                    .setMinCropDuration(3000)
+                    .setSortMode(AliyunSnapVideoParam.SORT_MODE_MERGE)
+                    .build();
+            AliyunVideoCrop.startCropForResult(this,REQUEST_CROP,mCropParam);
         }else if(v ==  back){
             finish();
         }
     }
-
 
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
