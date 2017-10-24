@@ -1,0 +1,15 @@
+com.aliyun.crop
+com.aliyun.crop.struct
+com.aliyun.crop.supply
+com.aliyun.log.core
+com.aliyun.querrorcode
+com.aliyun.qupai.editor
+com.aliyun.recorder.supply
+com.aliyun.struct.common
+com.aliyun.struct.effect
+com.aliyun.struct.encoder
+com.aliyun.struct.recorder
+com.aliyun.struct.snap
+com.duanqu.qupai.adaptive
+com.qu.preview
+com.qu.preview.callback
